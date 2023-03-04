@@ -27,23 +27,20 @@ nav{
     padding: 5px 0;
 }  
 
-nav ul li{
+.nav-background{
     display:inline-block;
     height:35px;
 }   
-i{
+.material-icons{
     margin-right: 5px;
+    font-size: 18px;
 }
 
 
 
-
-header img{
-    padding-left: 120px;
-}
 
   .search-container {
-    width: 50%;
+    width: 110%;
     display: flex;
     align-items: center; /* Canh giữa khung tìm kiếm và ảnh */
   }
@@ -52,6 +49,7 @@ header img{
     width: 200px; /* Điều chỉnh kích thước ảnh */
     height: 60px;
     margin-right: 20px; /* Điều chỉnh khoảng cách giữa ảnh và khung tìm kiếm */
+    padding-left: 120px;
   }
 
   form {
@@ -59,15 +57,30 @@ header img{
     flex: 1; /* Khung tìm kiếm sẽ mở rộng để lấp đầy không gian còn lại */
   }
 
-  input {
+  .text-search {
+    margin-top:10px;
     flex: 1; /* Khung nhập liệu sẽ mở rộng để lấp đầy không gian còn lại */
-    margin-right: 10px; /* Điều chỉnh khoảng cách giữa khung nhập liệu và nút tìm kiếm */
   }
-  input[type="text"] {
+  .text-search[type="text"] {
+    border: 1px solid rgb(97, 97, 98);
+    height:20px;
     padding: 6px; /* Điều chỉnh khoảng cách giữa nội dung và viền khung */
     border-radius: 20px; /* Điều chỉnh đường cong góc của khung nhập liệu */
   }
- .search{
-    margin-left: -45px;
-    padding:6px;
+ .search-icon{
+    margin-left: -47px;
+    padding:19px;
+ }
+ .text-cart{
+  font-size: 15px;
+  text-decoration: none;
+  margin-left: 150px;
+  color:rgb(97, 97, 98);
+ }
+ .cart{
+  border: 1px solid rgb(97, 97, 98);
+  width:115px;
+  height:20px;
+  padding: 6px; /* Điều chỉnh khoảng cách giữa nội dung và viền khung */
+  border-radius: 5px; /* Điều chỉnh đường cong góc của khung nhập liệu */
  }
